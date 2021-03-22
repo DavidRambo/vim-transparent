@@ -42,7 +42,8 @@ function! background#clear_background()
         for group in ['Normal', 'Comment', 'Constant', 'Special', 'Identifier',
                     \'Statement', 'PreProc', 'Type', 'Underlined', 'Todo', 'String',
                     \'Function', 'Conditional', 'Repeat', 'Operator', 'Structure',
-                    \'LineNr', 'NonText', 'SignColumn', 'CursorLineNr', 'EndOfBuffer']
+                    \'LineNr', 'NonText', 'SignColumn', 'CursorLineNr', 'EndOfBuffer'
+                    \'Folded', 'FoldColumn',]
             call s:clear_bg(group)
         endfor
     endif
