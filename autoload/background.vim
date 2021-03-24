@@ -43,7 +43,7 @@ function! background#clear_background()
                     \'Statement', 'PreProc', 'Type', 'Underlined', 'Todo', 'String',
                     \'Function', 'Conditional', 'Repeat', 'Operator', 'Structure',
                     \'LineNr', 'NonText', 'SignColumn', 'CursorLineNr', 'EndOfBuffer',
-                    \'Folded', 'FoldColumn', 'netrwDir']
+                    \'Folded', 'FoldColumn']
             call s:clear_bg(group)
         endfor
     endif
